@@ -1,0 +1,52 @@
+Slides:
+	Software Qualities:
+		Malleable - easy to change, hard to change right
+		Requirements / environment change over time
+		Correctness  - Correct with respect to a formal specification
+		Reliability  - Prob that a prog will not fail after a given tme
+		Robbustness  - Behaves reasonably under stress
+		Performance	 - Uses resources efficiently
+		Portabliity	 - Transports to another platform easily
+		Usibility	 - Ease of use
+		Maintainence - Ease of maintaining
+		Reusability	 - How easily can code / design be reused
+		Usefulness	 - Usefulness
+	Software LifeCycles
+		Code & Fix	 - Doit(); - Code, debug
+			+ Quick progress. Low overhead
+			+ Protorypes, scripts
+			- Not good for big things
+			- No planning. No documentation.
+		WaterFall	 - Communication(); Planning(); Modeling(); Constructions(); Deployment();
+			+ Good for well understood, complex problems
+			+ Orderly easy-to-follow model - inexperienced engineers
+			- All planning upfront - harder if problem not well understood
+			- Non adaptive to change in requirements
+			- No code or integreation till very end
+		Boehm's Spiral		- while(!done()){Communication; Planning; 
+								Modeling; Constructions; Deployment;}
+			
+		Unified Process 	- Inception(); Elaboration(); Construction(); Transition(); 
+		Agile Processes		- forwach(week : time){doWork(); EvaluatePriorities();}
+			Extreme Programming - 	
+			SCRUM				-
+		
+		
+Design Patterns:
+	Structural - 
+		Facade:
+	Creational - 
+		AbstractFactory:
+	Behavioral -
+		Observer:
+		Visitor:
+		Iterator:
+	Composite
+		Model View Controller
+		
+Code Smells:
+
+Refactoring Techniques:
+
+Software Metrics:
+
