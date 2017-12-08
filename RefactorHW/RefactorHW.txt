@@ -1,0 +1,34 @@
+Refactoring Excercise -- Aaron McCarthy
+
+1.) 
+	Due to the fact that Agile methods start with a small piece of software and then make 
+	incremental improvements upont that piece of softwware, refatoring is very important. 
+	Often times in agile development code that was written at the begining of the development 
+	process must be re-writeen in order to behave and perform as expected with the code that 
+	is written in the later parts of the development process. 
+	
+2.)
+	You refactor when you need to change the internal structure of a module or piece of software 
+	without changing the actual functionality of the software. You may need to do this in order 
+	to improve performance or maintainability of a pice of code without effecting the core 
+	functionality.
+
+3.)
+	Tests are necessary to use when refactoring to ensure that the behavior of the code that has 
+	been refactored has not changed. TDD is useful in this regard because there should be tests 
+	for all functionality in the software before the refactor happens. Also test cases should be 
+	refactored along with the methods that they test in order to assure quality of code across the 
+	board.
+
+4.)
+	Test cases are very important and ensure that a piece of code functions as intended. When 
+	refactoring it is very easy to forget about parts of the original functionality amd not implement
+	all of the original functionality. Test cases are used to test if a refactor has all the same 
+	functionality as the code before it was refactored. Furthermore, tests should run relatively fast 
+	so it is a very easy way to ensure that you are not breaking your software when trying to make it
+	better.
+
+5.)
+	https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672
+	https://sourcemaking.com/refactoring
+	https://www.google.com
