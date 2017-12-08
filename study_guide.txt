@@ -1,5 +1,5 @@
 Slides:
-	Software Qualities:
+	Software Qualities
 		Malleable - easy to change, hard to change right
 		Requirements / environment change over time
 		Correctness  - Correct with respect to a formal specification
@@ -23,13 +23,40 @@ Slides:
 			- All planning upfront - harder if problem not well understood
 			- Non adaptive to change in requirements
 			- No code or integreation till very end
-		Boehm's Spiral		- while(!done()){Communication; Planning; 
-								Modeling; Constructions; Deployment;}
-			
+		Boehm's Spiral		- while(!done()){Communication; Planning; Modeling; Constructions; Deployment;}
 		Unified Process 	- Inception(); Elaboration(); Construction(); Transition(); 
-		Agile Processes		- forwach(week : time){doWork(); EvaluatePriorities();}
-			Extreme Programming - 	
-			SCRUM				-
+			Inception 		- outline use cases / key requirements
+			Elaboration 	- finalize requirements, define software architechure
+			Construction 	- develop initial running system
+			Transition		- complete product release
+		Agile Processes		- foreach(week : time){doWork(); evaluatePriorities();}
+			Small tasks generated from cusstomer requirements
+			Re-Evaluate priorities after each cycle - 1 day - 1 week
+			+ Flexible, allows for adaptation to changing customer requirements
+			+ Focus on small increments of work, minimizes risk
+			- Higher cost at start of project than more traditional methodologies
+			Extreme Programming - SCRUM but with a dumb name
+				Continuous Unit/Regression testing
+				Pair programming w/ on the fly design - start simple increace complexity as needed
+				+ On-site customer as part of team
+				- Little to no documentation, most thigs are white boarded then implemented
+				- Not great for large projects
+			Scrum 			- foreach(sprint : time){doWork(); sprintMeeting();}
+				Scrum master tessl team what to do, team does it
+				Deliverable produced at end of each sprint
+	Software Requirements
+		Scope	- all things system will do
+		Functional Req 		- What the system should do
+							- Inputs, Outputs, Computations, etc.. 
+		Non-Functional Req 	- How the system does things, Constraints for development
+		Req Features		- Verifiable, Consistent, Unambiguous, Completeness
+			Verifiability 	- Must be testable (pass/fail) - unambiguous, no adverbs
+			Passive Voice 	- The action is done by X 	- Wrong
+			Active Voice	- X does the action			- Right
+			Ambiguity		- Many - ambiguous - 100 - unambiguous
+			Consistency 	- Requirements cannot contradict one another
+			
+		
 		
 		
 Design Patterns:
