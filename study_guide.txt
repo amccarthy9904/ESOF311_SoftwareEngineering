@@ -49,14 +49,29 @@ Slides:
 		Functional Req 		- What the system should do
 							- Inputs, Outputs, Computations, etc.. 
 		Non-Functional Req 	- How the system does things, Constraints for development
+							- Platform, Dev process, Response time, Throuput, Resource usage
 		Req Features		- Verifiable, Consistent, Unambiguous, Completeness
 			Verifiability 	- Must be testable (pass/fail) - unambiguous, no adverbs
 			Passive Voice 	- The action is done by X 	- Wrong
 			Active Voice	- X does the action			- Right
 			Ambiguity		- Many - ambiguous - 100 - unambiguous
 			Consistency 	- Requirements cannot contradict one another
-			
-		
+	Use Case Analysis - UC
+		Use Case 	- Sequence of actions that an actor performs to complete a task 
+					- Describes a users interaction with a system
+					- Does not describe computations of a system, Independent of GUI
+					- Help with defining scope of a system, and planning for development
+					- Name, Actors, Goals, Preconditions, Description, 
+							Related UCs, steps, Post Conditions
+		Actors		- Users or other systems that interact with the system
+		Extension		- exception --> case
+			- Describe optional interactions or rare cases		
+		Generalization	- children --|>	 superclass
+			- Represents several similar UCs, superclass
+		Inclusion		- case --> common step
+			- Common steps between several UCs
+			- Dont have to repeat across many UCs
+
 		
 		
 Design Patterns:
